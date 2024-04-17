@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Watch-Market</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+    <header>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark " >
+        <div class="container-fluid">
+        <b class="">TIME TROVE</b>
+        <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menu">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-list" viewBox="0 0 16 16">
+                <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5"/>
+              </svg>  MENU
+            </button>
+        <div class="collapse navbar-collapse" id="menu">
+    <ul class="navbar-nav ms-auto mb-lg-0">
+        <li class="nav-item"><a class="nav-link" href="#signin">SIGN IN</a></li>
+        <li  class="nav-item"><a class="nav-link" href="#">SIGN UP</a></li>
+        <li  class="nav-item"><a class="nav-link" href="#abt">ABOUT</a></li>
+        <li  class="nav-item"><a class="nav-link" href="#cnt">CONTACT</a></li>
+
+    </ul>
+        </div>
+        </div>
+    </nav>
+</header>
+
+<div class="container-fluid ">
+    <section id="signin">
+
+        <div class="col-lg-4 col-md-6 col-12  py-2 si">
+<form action="app.html" method="post">
+    <h1 class="text-center">Login</h1>
+
+    <div class="mb-5">
+    <label class="form-label" for="em">Email</label>
+    <input class="form-control inp-box" type="email" id="em" placeholder="ex:john@email.com"  required>
+    <i class='bx bx-user'></i>
+    </div>
+    <div class="mb-3">
+        <label  class="form-label" for="pw">Password</label>
+        <input class="form-control inp-box pass" type="password" id="pw" placeholder="Password" pattern="[a-z1-8]{8}">
+       <span> <i class='bx bxs-lock-alt'></i></span>
+    </div>
+    <div class="mb-3 remm">
+        
+        <label  class="form-label" for="rm"><input  id="rm" type="checkbox"> Remember me</label>
+        <a class="fp" href="#">Forgot Password</a>
+    </div>
+    <div class="mb-3 remm">
+    <input type="submit" class="btn btn-success sub" value="LOGIN">        
+    </div>
+
+</form>
+        </div>
+       
+    </section>
+    <section id="abt">
+        <div class="row">
+            <div class="col-lg-6 col-md-6 col-12 g-2">
+                <H1>About Us</H1>
+                <p>Welcome to TIME TROVE, where time meets elegance. Discover meticulously curated watches that transcend style and functionality. Explore our collection and find your perfect timepiece today.</p>
+           <div class="row grid g-3">
+            <div  class="col-lg-3 col-md-3 col-6"><img class="image-fluid" src="./img/ang1.jpeg" alt=""></div>
+            <div class="col-lg-3 col-md-3 col-6">
+                <img class="image-fluid" src="./img/dw1.webp" alt="">
+            </div>
+            <div  class="col-lg-3 col-md-3 col-6"><img class="image-fluid" src="./img/band/band2.jpg" alt="">
+            </div>
+            <div  class="col-lg-3 col-md-3 col-6">
+            <img class=" image-fluid " src="./img/sw1.webp" alt="">
+        </div>   
+        </div>
+            </div>
+            <div class="col-lg-6 col-md-6 col-12 mb-0">
+                <img src="./img/images.jpeg"alt="watch"class="image-fluid img-wt1">
+            </div>
+        </div>
+    </section>
+   
+  
+    </div>
+    </div>
+<footer class="footer" id="cnt">
+    <div class="containefluid">
+        <div class="row">
+            <div class="col-lg-3 col-md-3 col-6">
+<h4 class="display-5">
+    TIME TROVE
+   
+</h4>
+<p>The Elegant Species</p>
+<p>The Advanced Technologies </p>
+            </div>
+            <div class="col-lg-3 col-md-3 col-6">
+                <h2>Sections</h2>
+                <li><a href="#abt">Analog</a></li>
+                <li><a href="#abt">Digital</a></li>
+                <li><a href="#abt">smart-band</a></li>
+                <li><a href="#abt">Smart-Watch</a></li>
+
+            </div>
+            <div class="col-lg-3 col-md-3 col-6">
+                <h2>Follow us on</h2>
+                <a href=""><i class='bx bxl-twitter logo'></i></a>
+                <a href=""> <i class='bx bxl-facebook-circle logo'></i></a>
+                 <a href=""><i class='bx bxl-instagram-alt logo' ></i></a>
+            </div>
+            <div class="col-lg-3 col-md-3 col-6">
+                <h2>Policies</h2>
+               <li>Policy</li>
+               <li>Terms and Conditions</li>
+               <li>About us</li>
+            </div>
+        </div>
+    </div>
+    <div class="mt-5 copy text-center">
+        © 2023 - 2024 Time Trove Brand Technologies Pvt Limited | ALL RIGHTS RESERVED
+    </div>
+</footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+</html>
