@@ -20,6 +20,8 @@ section{
 }
 li{
     list-style-type: none;
+     display: flex;
+  justify-content: center;
 }
 header .nav-link{
     color:sandybrown;
