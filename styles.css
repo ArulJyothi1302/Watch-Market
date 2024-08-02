@@ -76,17 +76,18 @@ form{
     padding:10 20px;
     margin:0 auto;
 }
-.fp{
-    color: red;
-    font-weight: 700;
-    border-left: 1px solid red;
-    border-radius: 20px;
-    padding:2px;
+.fp {
+  color: red;
+  font-weight: 700;
+  border-left: 4px solid red;
+  border-right: 4px solid red;
+  border-block: 3px solid pink;
+  border-radius: 20px;
+  padding: 2px;
 }
-.si a:hover{
-    color:rgb(213, 0, 241);
-    border-bottom: 3px solid blue;
-   
+.si a:hover {
+  color: rgb(213, 0, 241);
+  border-block: 3px solid rgb(147, 147, 193);
 }
 .nav-link:hover{
     text-shadow: #FC0 1px 0px 10px;}
